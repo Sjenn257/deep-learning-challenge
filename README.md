@@ -39,3 +39,6 @@ The results from this model revealed a Loss of 0.5548 and Accuracy of 0.7244.
 
 In an effort to optimize the model and acheive a target predictive accuracy higher than 75%, I tried the following:
 
+Increased the unique bins in the Application Type column from 8 to 10 and the Classification column from 6 to 10. I also used the keras-tuner to auto optimize to allow the model to decide the number of hidden layers and which activations to use.
+
+I was only able to increase the target predictive accuracy to 73.6%
